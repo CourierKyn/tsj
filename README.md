@@ -7,6 +7,10 @@
 - No more quoting character like `"`, `""`, `""""`. I hate double quoting!
 - Hand coded loading and writing function, easy to handle by yourself.
 
+------------
+
+Super easy example in Python:
+
 ```python
 header = ('index', 'a', 'b', 'c')
 data = [[0, 'hello', 'world', 42],
