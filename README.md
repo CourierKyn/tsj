@@ -17,8 +17,8 @@ Super easy example in Python:
 ```python
 header = ('index', 'a', 'b', 'c')
 data = [[0, 'hello', 'world', 42],
-         1, 'llo\r\nhe', 'ld\twor', 24],
-         ...]
+        [1, 'llo\r\nhe', 'ld\twor', 24],
+        ...]
 
 for row in header, *data:
     writer.write('\t'.join(map(json.dumps, row)) + '\n')
