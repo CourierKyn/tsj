@@ -28,4 +28,4 @@ for row in (header, *data):
 # 1          "llo\r\nhe"    "ld\twor"    24
 ```
 
-It just works.
+[It](simple.tsj) just works.
